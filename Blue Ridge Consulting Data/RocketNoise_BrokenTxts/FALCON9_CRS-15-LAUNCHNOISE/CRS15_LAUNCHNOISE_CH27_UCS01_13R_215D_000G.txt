@@ -1,0 +1,35 @@
+;HEADER SIZE...................,34                                             
+;VEHICLE NAME..................,FALCON 9 BLOCK 4                               
+;MISSION NAME..................,CRS-15                                         
+;MISSION TYPE..................,ISS RESUPPLY                                   
+;MISSION OPERATOR..............,SPACE EXPLORATION TECHNOLOGIES CORP.           
+;MISSION CUSTOMER..............,NASA                                           
+;LAUNCH DATE...................,29 JUNE 2018                                   
+;LAUNCH TIME  (UTC ZULU).......,09:42:42.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,SLC-40, CAPE CANAVERAL AIR FORCE STATION, FL   
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,UCS 1                                          
+;RECORDER LOCATION SHORT NAME..,UCS01                                          
+;SAMPLES TOTAL.................,360                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,27                                             
+;CH DESCRIPTION................,1/2" MICROPHONE FREE-FIELD                     
+;TRANSDUCER MODEL..............,PCB 377B02                                     
+;TRANSDUCER SN.................,106212                                         
+;PRE-CAL SENS (mV/Pa)..........,N/A                                            
+;POST-CAL SENS (mV/Pa).........,N/A                                            
+;MEAS SENS (mV/Pa).............,45.830                                         
+;ORIENTATION...................,INVERTED                                       
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,PCB PRM831                                     
+;PREAMP SN.....................,0466                                           
+;RECORDER MODEL................,LD-831                                         
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,28.464221                                      
+;LONGITUDE.....................,-80.653947                                     
+;MICROPHONE HEIGHT AGL M.......,0.0                                            
+;CH NOTES......................,NONE                                           

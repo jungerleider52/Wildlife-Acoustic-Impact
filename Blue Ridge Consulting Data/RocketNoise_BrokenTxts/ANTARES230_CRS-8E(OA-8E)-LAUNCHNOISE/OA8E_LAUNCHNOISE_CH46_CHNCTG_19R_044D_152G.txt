@@ -1,0 +1,36 @@
+;HEADER SIZE...................,35                                             
+;VEHICLE NAME..................,ANTARES 230                                    
+;MISSION NAME..................,CRS-8E (OA-8E)                                 
+;MISSION TYPE..................,ISS RESUPPLY                                   
+;MISSION OPERATOR..............,NASA                                           
+;MISSION CUSTOMER..............,ORBITAL ATK                                    
+;LAUNCH DATE...................,12 NOVEMBER 2017                               
+;LAUNCH TIME  (UTC ZULU).......,12:19:51.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,MARS PAD 0A, WALLOPS FLIGHT FACILITY, VA       
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,Chincoteague                                   
+;RECORDER LOCATION SHORT NAME..,CHNCTG                                         
+;SAMPLES TOTAL.................,315                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,46                                             
+;CH DESCRIPTION................,1/2" MICROPHONE FREE-FIELD                     
+;TRANSDUCER MODEL..............,PCB 377B02                                     
+;TRANSDUCER SN.................,154674                                         
+;PRE-CAL SENS (mV/Pa)..........,N/A                                            
+;POST-CAL SENS (mV/Pa).........,N/A                                            
+;MEAS SENS (mV/Pa).............,12.98                                          
+;ORIENTATION...................,SKY                                            
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,PCB PRM831                                     
+;PREAMP SN.....................,036841                                         
+;RECORDER MODEL................,LD-831                                         
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,37.957447                                      
+;LONGITUDE.....................,-75.336684                                     
+;MICROPHONE HEIGHT AGL M.......,1.5                                            
+;CH NOTES......................,CONTINUOUS LOW-LEVEL MECH TONAL NOISE 100 HZ   
+;QC NOTE.......................,NONE                                           

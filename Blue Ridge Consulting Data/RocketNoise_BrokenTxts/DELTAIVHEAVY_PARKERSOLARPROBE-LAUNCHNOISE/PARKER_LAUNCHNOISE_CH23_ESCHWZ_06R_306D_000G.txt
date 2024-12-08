@@ -1,0 +1,36 @@
+;HEADER SIZE...................,35                                             
+;VEHICLE NAME..................,DELTA IV HEAVY                                 
+;MISSION NAME..................,PARKER SOLAR PROBE                             
+;MISSION TYPE..................,HELIOPHYSICS                                   
+;MISSION OPERATOR..............,UNITED LAUNCH ALLIANCE                         
+;MISSION CUSTOMER..............,NASA                                           
+;LAUNCH DATE...................,12 AUGUST 2018                                 
+;LAUNCH TIME  (UTC ZULU).......,07:31:00.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,SLC-37B, CCAFS, FL                             
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,E Schwartz Rd                                  
+;RECORDER LOCATION SHORT NAME..,ESCHWZ                                         
+;SAMPLES TOTAL.................,315                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,23                                             
+;CH DESCRIPTION................,1/2" MICROPHONE FREE-FIELD                     
+;TRANSDUCER MODEL..............,PCB 377B02                                     
+;TRANSDUCER SN.................,105222                                         
+;PRE-CAL SENS (mV/Pa)..........,N/A                                            
+;POST-CAL SENS (mV/Pa).........,N/A                                            
+;MEAS SENS (mV/Pa).............,44.922                                         
+;ORIENTATION...................,INVERTED                                       
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,PCB PRM831                                     
+;PREAMP SN.....................,471                                            
+;RECORDER MODEL................,LD-831                                         
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,28.562881                                      
+;LONGITUDE.....................,-80.614317                                     
+;MICROPHONE HEIGHT AGL M.......,0.0                                            
+;CH NOTES......................,NONE                                           
+;QC NOTE.......................,NONE                                           

@@ -1,0 +1,34 @@
+;HEADER SIZE...................,33                                             
+;VEHICLE NAME..................,ANTARES 230                                    
+;MISSION NAME..................,CRS-8E (OA-8E)                                 
+;MISSION TYPE..................,ISS RESUPPLY                                   
+;MISSION OPERATOR..............,NASA                                           
+;MISSION CUSTOMER..............,ORBITAL ATK                                    
+;LAUNCH DATE...................,12 NOVEMBER 2017                               
+;LAUNCH TIME  (UTC ZULU).......,12:19:51.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,MARS PAD 0A, WALLOPS FLIGHT FACILITY, VA       
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,Arbuckle Neck Road (PXI)                       
+;RECORDER LOCATION SHORT NAME..,ARBNRD                                         
+;SAMPLES TOTAL.................,308                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,18                                             
+;CH DESCRIPTION................,1/4" MICROPHONE FREE-FIELD                     
+;TRANSDUCER MODEL..............,GRAS 40BE                                      
+;TRANSDUCER SN.................,105095                                         
+;MEAS SENS (mV/Pa).............,4.078                                          
+;ORIENTATION...................,GRAZING                                        
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,GRAS 26CB                                      
+;PREAMP SN.....................,107340                                         
+;RECORDER MODEL................,PXI-4462                                       
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,37.847604                                      
+;LONGITUDE.....................,-75.513816                                     
+;MICROPHONE HEIGHT AGL M.......,3.7                                            
+;CH NOTES......................,CONTINUOUS MECH TONAL NOISE 500 HZ & <80 HZ    
+;QC NOTE.......................,NONE                                           

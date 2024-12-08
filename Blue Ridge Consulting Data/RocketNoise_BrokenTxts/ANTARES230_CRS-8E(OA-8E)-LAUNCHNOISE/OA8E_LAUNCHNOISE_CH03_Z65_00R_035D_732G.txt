@@ -1,0 +1,34 @@
+;HEADER SIZE...................,33                                             
+;VEHICLE NAME..................,ANTARES 230                                    
+;MISSION NAME..................,CRS-8E (OA-8E)                                 
+;MISSION TYPE..................,ISS RESUPPLY                                   
+;MISSION OPERATOR..............,NASA                                           
+;MISSION CUSTOMER..............,ORBITAL ATK                                    
+;LAUNCH DATE...................,12 NOVEMBER 2017                               
+;LAUNCH TIME  (UTC ZULU).......,12:19:51.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,MARS PAD 0A, WALLOPS FLIGHT FACILITY, VA       
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,Z-65                                           
+;RECORDER LOCATION SHORT NAME..,Z65                                            
+;SAMPLES TOTAL.................,315                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,03                                             
+;CH DESCRIPTION................,1/4" MICROPHONE FREE-FIELD                     
+;TRANSDUCER MODEL..............,GRAS 40BE                                      
+;TRANSDUCER SN.................,66437                                          
+;MEAS SENS (mV/Pa).............,3.054                                          
+;ORIENTATION...................,SKY                                            
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,GRAS 26CB                                      
+;PREAMP SN.....................,191203                                         
+;RECORDER MODEL................,NI-9232                                        
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,37.835345                                      
+;LONGITUDE.....................,-75.486381                                     
+;MICROPHONE HEIGHT AGL M.......,7.3                                            
+;CH NOTES......................,NONE                                           
+;QC NOTE.......................,NONE                                           

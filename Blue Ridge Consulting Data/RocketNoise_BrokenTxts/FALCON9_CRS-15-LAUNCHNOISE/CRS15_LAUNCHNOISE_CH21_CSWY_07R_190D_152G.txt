@@ -1,0 +1,33 @@
+;HEADER SIZE...................,32                                             
+;VEHICLE NAME..................,FALCON 9 BLOCK 4                               
+;MISSION NAME..................,CRS-15                                         
+;MISSION TYPE..................,ISS RESUPPLY                                   
+;MISSION OPERATOR..............,SPACE EXPLORATION TECHNOLOGIES CORP.           
+;MISSION CUSTOMER..............,NASA                                           
+;LAUNCH DATE...................,29 JUNE 2018                                   
+;LAUNCH TIME  (UTC ZULU).......,09:42:42.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,SLC-40, CAPE CANAVERAL AIR FORCE STATION, FL   
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,NASA Causeway                                  
+;RECORDER LOCATION SHORT NAME..,CSWY                                           
+;SAMPLES TOTAL.................,333                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,21                                             
+;CH DESCRIPTION................,1/2" MICROPHONE PRES-FIELD                     
+;TRANSDUCER MODEL..............,PCB 377B11                                     
+;TRANSDUCER SN.................,126752                                         
+;MEAS SENS (mV/Pa).............,46.411                                         
+;ORIENTATION...................,GRAZING                                        
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,PCB 426E01                                     
+;PREAMP SN.....................,18838                                          
+;RECORDER MODEL................,NI-9234                                        
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,28.499815                                      
+;LONGITUDE.....................,-80.589733                                     
+;MICROPHONE HEIGHT AGL M.......,1.5                                            
+;CH NOTES......................,ACTIVE PUBLIC ADDRESS SYSTEM                   

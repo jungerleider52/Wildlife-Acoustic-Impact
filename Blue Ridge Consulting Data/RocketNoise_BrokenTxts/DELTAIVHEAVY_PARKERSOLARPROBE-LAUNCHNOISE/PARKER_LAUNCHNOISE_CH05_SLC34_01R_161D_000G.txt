@@ -1,0 +1,34 @@
+;HEADER SIZE...................,33                                             
+;VEHICLE NAME..................,DELTA IV HEAVY                                 
+;MISSION NAME..................,PARKER SOLAR PROBE                             
+;MISSION TYPE..................,HELIOPHYSICS                                   
+;MISSION OPERATOR..............,UNITED LAUNCH ALLIANCE                         
+;MISSION CUSTOMER..............,NASA                                           
+;LAUNCH DATE...................,12 AUGUST 2018                                 
+;LAUNCH TIME  (UTC ZULU).......,07:31:00.000                                   
+;EVENT DESCRIPTION.............,LAUNCH NOISE                                   
+;EVENT SITE....................,SLC-37B, CCAFS, FL                             
+;PROJECT.......................,ACRP PROJECT 02-81                             
+;ORGANIZATION..................,BLUE RIDGE RESEARCH AND CONSULTING, LLC        
+;RECORDER LOCATION.............,SLC-34                                         
+;RECORDER LOCATION SHORT NAME..,SLC34                                          
+;SAMPLES TOTAL.................,315                                            
+;RUN NOTES.....................,NONE                                           
+;CH NUMBER.....................,05                                             
+;CH DESCRIPTION................,1/4" MICROPHONE PRES-FIELD                     
+;TRANSDUCER MODEL..............,GRAS 40BD                                      
+;TRANSDUCER SN.................,41691                                          
+;MEAS SENS (mV/Pa).............,1.619                                          
+;ORIENTATION...................,INVERTED                                       
+;WINDSCREEN....................,YES                                            
+;GRID..........................,YES                                            
+;PREAMP MODEL..................,GRAS 26CB                                      
+;PREAMP SN.....................,54737                                          
+;RECORDER MODEL................,NI-9234                                        
+;COORDINATES...................,GEOGRAPHIC                                     
+;DATUM.........................,WGS 84                                         
+;LATITUDE......................,28.522363                                      
+;LONGITUDE.....................,-80.561071                                     
+;MICROPHONE HEIGHT AGL M.......,0.0                                            
+;CH NOTES......................,CONTINUOUS LOW-LEVEL MECH TONAL NOISE 60 HZ    
+;QC NOTE.......................,NONE                                           
