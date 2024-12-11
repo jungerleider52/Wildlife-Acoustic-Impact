@@ -68,7 +68,7 @@ def data_parse(filename):
         # normalize each time measure relative to the launch time of the rocket
         for i, time in enumerate(data[:, 0]):
             pt = datetime.strptime(str(time), '%H:%M:%S.%f')
-            secs_time = pt.second + pt.minute * 60 + pt.hour * 3600
+            secs_time = pt.second + pt.minute*60 + pt.hour*3600
             data[i, 0] = secs_time - launch
 
     return data
@@ -150,12 +150,12 @@ def process_data(folder, launch_pad_coords, graph=True):
         SPL = [float(s) for s in data[:, 1]]
 
         # filter the dependent variable data
-        SPL = filter_data(SPL, window=8)
+        # SPL = filter_data(SPL, window=12)
 
         if graph:
             # plot this file on the figure
             ax.plot(dist, time, SPL)
-            ax.set_title(f"Location Sorted SPL vs. Time for: {name}")
+            ax.set_title(f"(Unfiltered) Location Sorted SPL vs. Time for: {name}")
 
         max_list.append(round(float(max(SPL)), 2))
         dist_list.append(dist)
@@ -208,13 +208,13 @@ if __name__ == "__main__":
     fh_folder = 'RocketNoiseCSV\FALCONHEAVY_ARABSAT6A-LAUNCHNOISE'
 
     # switch to turn graphing on/off
-    graph_switch = False
+    graph_switch = True
 
     # generate graphs
     antares_max, antares_dist = process_data(antares_folder, marspad0A_coords, graph_switch)
-    d4h_max, d4h_dist = process_data(d4h_folder, slc37B_coords, graph_switch)
-    f9_max, f9_dist = process_data(f9_folder, slc40_coords, graph_switch)
-    fh_max, fh_dist = process_data(fh_folder, lc39A_coords, graph_switch)
+    # d4h_max, d4h_dist = process_data(d4h_folder, slc37B_coords, graph_switch)
+    # f9_max, f9_dist = process_data(f9_folder, slc40_coords, graph_switch)
+    # fh_max, fh_dist = process_data(fh_folder, lc39A_coords, graph_switch)
 
     # processing for the antares rocket:
     a, b, c, d = max_curve(antares_max, antares_dist, "Antares-230", graph_switch)
@@ -223,6 +223,6 @@ if __name__ == "__main__":
     print(f"\nFunction format: -a * ln(b*x + c) + d")
     print(f"where: a = {a:.4f}, b = {b:.4f}, c = {c:.4f}, d = {d:.4f}")
 
-    max_db = 90
+    max_db = 100
     radius = ((math.exp(-((max_db-d)/a))) - c) / b
     print(f"For max sound level of {max_db}[dBa], use range of {radius:.2f}[km].")
