@@ -8,6 +8,8 @@ Rockets are powerful vehicles that play a critical role in space exploration, sa
 
 This repository depends on modules from Math, Numpy, SciPy, Datetime, Matplotlib, and OS libraries. 
 
+USE PYTHON 3.10 when running this program to avoid compatibility issues.
+
 # Program Functions
 
 This repository consists of one main program, "Location-SPL_Grapher" which includes the following functions:
@@ -82,15 +84,16 @@ Note: The boolean variable "graph_switch" can be set to True or False to turn gr
 
 Using the Antares 230 launch folder, with a maximum tolerable sound level of 100 [dBa]:
 
-1) We generate the following max SPLs in each microphone: [129.43, 129.8, 130.01, 115.99, 112.58, 105.64, 107.45, 103.88, 102.38, 102.12, 102.42, 102.84, 102.66, 102.81, 102.58, 102.5, 102.52, 102.62, 102.51, 102.76, 100.38, 99.19, 98.91, 99.61, 101.09, 99.26, 99.54, 96.76, 96.52, 97.42, 94.65, 92.55, 92.42, 93.01, 90.21, 88.1, 87.96, 87.87, 87.95, 90.19, 90.55, 92.17, 85.15, 79.04, 81.96, 77.53]
-2) We fit this data to a negative logarithmic function of the format: -a * ln(b*x + c) + d
+1) The following max SPLs in each microphone are generated: [129.43, 129.8, 130.01, 115.99, 112.58, 105.64, 107.45, 103.88, 102.38, 102.12, 102.42, 102.84, 102.66, 102.81, 102.58, 102.5, 102.52, 102.62, 102.51, 102.76, 100.38, 99.19, 98.91, 99.61, 101.09, 99.26, 99.54, 96.76, 96.52, 97.42, 94.65, 92.55, 92.42, 93.01, 90.21, 88.1, 87.96, 87.87, 87.95, 90.19, 90.55, 92.17, 85.15, 79.04, 81.96, 77.53]
+2) This data is fitted to a negative logarithmic function of the format: -a * ln(b*x + c) + d
 
     Where coefficients: a = 15.3842, b = 0.0261, c = 0.0087, d = 63.8232
-3) Using this function we can calculate a maximum range of 3.31 [km] around the launchpad.
+3) With this function, a maximum range is calculated of 3.31 [km] around the launchpad.
 
 # Limitations
 
 Although this function can automatically find certain information within the raw datasets, like coordinates, names, and indices of important events, a limitation is that the dataset must be of a very specific format to begin with.
 
-
 # Future Work
+
+In the future, the team plans to conduct further research into how different levels of sound affect different individual species. We also plan to investigate how different frequencies of sound affect wildlife.

@@ -1,8 +1,8 @@
 """Microphone-location-based Sound Data Analysis.
 
 This program contains a multitude of functions designed
-to take specially formatted .csv files and generate
-graphs from them.
+to take specially formatted microphone data .csv files
+and analyze the data in them.
 
 Author: Joey Ungerleider
 Version: 9/30/2024
@@ -218,7 +218,7 @@ if __name__ == "__main__":
     :graph_switch: switch to turn graphing on/off in the process_data() and max_curve() functions
     :max_db: maximum sound level to tolerate. This is what the program uses to generate a geographical range
     """
-    graph_switch = False
+    graph_switch = True
     max_db = 100 # in [dBa]
 
     # loop through and process each launch
