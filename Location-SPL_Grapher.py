@@ -150,7 +150,7 @@ def process_data(folder, launch_pad_coords, graph=True):
         SPL = [float(s) for s in data[:, 1]]
 
         # filter the dependent variable data
-        # SPL = filter_data(SPL, window=12)
+        SPL = filter_data(SPL, window=8)
 
         if graph:
             # plot this file on the figure
@@ -207,22 +207,38 @@ if __name__ == "__main__":
     f9_folder = 'RocketNoiseCSV\FALCON9_CRS-15-LAUNCHNOISE'
     fh_folder = 'RocketNoiseCSV\FALCONHEAVY_ARABSAT6A-LAUNCHNOISE'
 
-    # switch to turn graphing on/off
-    graph_switch = True
+    # create handy launch packages with each launch's folder and launchpad coords
+    antares = [antares_folder, marspad0A_coords, "Antares 230"]
+    d4h = [d4h_folder, slc37B_coords, "Delta IV Heavy"]
+    f9 = [f9_folder, slc40_coords, "Falcon 9"]
+    fh = [fh_folder, lc39A_coords, "Falcon Heavy"]
+    all_launches = [antares, d4h, f9, fh]
 
-    # generate graphs
-    antares_max, antares_dist = process_data(antares_folder, marspad0A_coords, graph_switch)
-    # d4h_max, d4h_dist = process_data(d4h_folder, slc37B_coords, graph_switch)
-    # f9_max, f9_dist = process_data(f9_folder, slc40_coords, graph_switch)
-    # fh_max, fh_dist = process_data(fh_folder, lc39A_coords, graph_switch)
+    """ USER INPUTS
+    :graph_switch: switch to turn graphing on/off in the process_data() and max_curve() functions
+    :max_db: maximum sound level to tolerate. This is what the program uses to generate a geographical range
+    """
+    graph_switch = False
+    max_db = 100 # in [dBa]
 
-    # processing for the antares rocket:
-    a, b, c, d = max_curve(antares_max, antares_dist, "Antares-230", graph_switch)
-    print(f"\nMax SPL in each microphone around the launch pad: {antares_max}")
+    # loop through and process each launch
+    for launch in all_launches:
+        # unpack
+        folder, coords, name = launch
 
-    print(f"\nFunction format: -a * ln(b*x + c) + d")
-    print(f"where: a = {a:.4f}, b = {b:.4f}, c = {c:.4f}, d = {d:.4f}")
+        # generate graph
+        max_, dist_ = process_data(folder, coords, graph_switch)
 
-    max_db = 100
-    radius = ((math.exp(-((max_db-d)/a))) - c) / b
-    print(f"For max sound level of {max_db}[dBa], use range of {radius:.2f}[km].")
+        # processing for the antares rocket:
+        a, b, c, d = max_curve(max_, dist_, name, graph_switch)
+        print("~----------------------~")
+        print(f"{name}:")
+        print(f"Max SPL in each microphone around the launch pad: {max_}")
+
+        # fitted function format:
+        print(f"\nFunction format: -a * ln(b*x + c) + d")
+        print(f"where: a = {a:.4f}, b = {b:.4f}, c = {c:.4f}, d = {d:.4f}")
+
+        # sound level range:
+        radius = ((math.exp(-((max_db-d)/a))) - c) / b
+        print(f"For max sound level of {max_db}[dBa], use range of {radius:.2f}[km] in the {name} launch.")

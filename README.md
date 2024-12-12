@@ -67,20 +67,30 @@ This repository consists of one main program, "Location-SPL_Grapher" which inclu
 
 The general process of the primary program is as follows:
 
-From a folder of microphone data, loop through each file/microphone:
-Collect metadata from each set, like coordinates of that microphone
-Calculate the distance from that microphone to the launch pad
-Collect raw data from each set
-Filter data
-Find the max sound level in each microphone
-Fit an exponential decay function based on each microphone’s max sound level and distance from the launchpad. Now we have a formula for max sound level as a function of distance from the launch pad, and can extrapolate max sound levels farther away from the launchpad than we actually have data for.
-Determine the maximum range around the launch pad, that would be loud enough to disrupt wildlife during a launch.
+1) From a folder of microphone data, loop through each file/microphone:
+2) Collect metadata from each set, like coordinates of that microphone
+3) Calculate the distance from that microphone to the launch pad
+4) Collect raw data from each set
+5) Filter data with a moving average
+6) Find the max sound level in each microphone
+7) Fit an exponential decay function based on each microphone’s max sound level and distance from the launchpad. Now we have a formula for max sound level as a function of distance from the launch pad, and can extrapolate max sound levels farther away from the launchpad than we actually have data for.
+8) Determine the maximum range around the launch pad, that would be loud enough to disrupt wildlife during a launch.
 
+Note: The boolean variable "graph_switch" can be set to True or False to turn graph generation on or off, in the process_data() and max_curve() functions.
 
 # Sample Results
 
+Using the Antares 230 launch folder, with a maximum tolerable sound level of 100 [dBa]:
 
+1) We generate the following max SPLs in each microphone: [129.43, 129.8, 130.01, 115.99, 112.58, 105.64, 107.45, 103.88, 102.38, 102.12, 102.42, 102.84, 102.66, 102.81, 102.58, 102.5, 102.52, 102.62, 102.51, 102.76, 100.38, 99.19, 98.91, 99.61, 101.09, 99.26, 99.54, 96.76, 96.52, 97.42, 94.65, 92.55, 92.42, 93.01, 90.21, 88.1, 87.96, 87.87, 87.95, 90.19, 90.55, 92.17, 85.15, 79.04, 81.96, 77.53]
+2) We fit this data to a negative logarithmic function of the format: -a * ln(b*x + c) + d
+
+    Where coefficients: a = 15.3842, b = 0.0261, c = 0.0087, d = 63.8232
+3) Using this function we can calculate a maximum range of 3.31 [km] around the launchpad.
 
 # Limitations
+
+Although this function can automatically find certain information within the raw datasets, like coordinates, names, and indices of important events, a limitation is that the dataset must be of a very specific format to begin with.
+
 
 # Future Work
